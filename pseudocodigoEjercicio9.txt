@@ -1,0 +1,31 @@
+Algoritmo Ejercicio9
+	
+	Hacer
+		Escribir "Ingresa 1ra. temperatura"
+		Leer T1
+		
+		Si T1 >= 5 y T1 <= 15 Entonces
+			
+			Escribir "Ingresa 2da. temperatura"
+			Leer T2
+			
+			si T2 >= 5 y T2 <= 15 Entonces
+				
+				Promedio = ( T1 + T2) / 2
+				Escribir "El promedio de las temperaturas es: " Promedio "°"
+				
+			SiNo
+				
+				Escribir "La temperatura debe estar entre 5° y 15°"
+				
+			FinSi
+			
+		SiNo
+			
+			Escribir "La temperatura debe estar entre 5° y 15°"
+			
+		FinSi
+		
+	Hasta Que T1 = 0
+	
+FinAlgoritmo
